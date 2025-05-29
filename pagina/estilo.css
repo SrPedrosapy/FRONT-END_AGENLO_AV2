@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff3e0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, nav, footer, .contato, .conteudo {
+  text-align: center;
+  padding: 20px;
+}
+
+header {
+  background: #ff6f00;
+  color: #fff;
+}
+
+nav {
+  background: #ffcc80;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #d84315;
+  margin: 0 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.introducao {
+  background: #fff8f0;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #ffcc80;
+  margin-bottom: 20px;
+  padding: 40px 20px;
+}
+
+.contato {
+  background: #ffe0b2;
+  border-top: 2px solid #ff6f00;
+  margin-top: 30px;
+  padding: 30px 20px;
+  font-size: 1rem;
+}
+
+footer {
+  background: #ffe0b2;
+  color: #333;
+  margin-top: 30px;
+  padding: 15px 20px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.produto {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.produto:hover {
+  transform: translateY(-5px);
+}
+
+.produto img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.produto h3 {
+  font-size: 1.1rem;
+  color: #d84315;
+  margin: 10px 0 5px;
+}
+
+.produto p {
+  font-size: 0.95rem;
+  color: #555;
+}
